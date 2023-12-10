@@ -1,4 +1,6 @@
 module.exports = {
+  trailingSlash: true,
+  output: 'export',
     env: {
       customKey: 'my-value',
       NOTION_SECRET_KEY: process.env.NOTION_SECRET_KEY, 
